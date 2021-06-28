@@ -1,8 +1,5 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
-import PostImg from "./PostImg";
-import PostIt from "./PostIt";
-import PostVideo from "./PostVideo";
 const Dashboard = () => {
   return (
     <>
@@ -16,9 +13,6 @@ const Dashboard = () => {
           </Nav.Link>
         </Nav>
       </div>
-        <PostIt />
-        <PostImg />
-        <PostVideo />
     </>
   );
 };
