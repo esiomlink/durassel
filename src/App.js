@@ -1,5 +1,6 @@
 import './App.css';
 import Dashboard from './components/Dashboard';
+import Board from './components/Board';
 import logo from './img/fiverr.png'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       </div>
 
       <Dashboard />
+      <Board />
     </div>
   );
 }

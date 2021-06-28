@@ -1,11 +1,16 @@
 import { Card } from "react-bootstrap";
+import { useRef } from "react";
+import useDraggable from "../../hooks/useDraggable";
 
 export default function PostIt() {
+  const postRef = useRef(null);
+  useDraggable(postRef);
   return (
     <>
             <Card
               style={{ width: "20%", height: "auto" }}
               className="bg-warning"
+              ref={postRef}
             >
               <Card.Header as="h5" className='text-dark'>Post-it</Card.Header>
               <Card.Body>
