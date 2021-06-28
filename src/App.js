@@ -1,6 +1,6 @@
 import './App.css';
-import Dashboard from './components/Dashboard';
 import Board from './components/Board';
+import Navigation from './components/Navigation';
 import logo from './img/fiverr.png'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <img src={logo} alt='logo' />
       </div>
 
-      <Dashboard />
+      <Navigation />
       <Board />
     </div>
   );
