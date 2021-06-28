@@ -5,7 +5,7 @@ import PostVideo from '../PostVideo';
 
 export default function Board() {
   return (
-    <Container fluid>
+    <Container fluid className='d-flex justify-content-around align-items-center'>
       <PostIt />
       <PostImg />
       <PostVideo />

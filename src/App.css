@@ -1,6 +1,6 @@
 .App {
-
-color: blue;
+  display: flex;
+  justify-content: center;
 }
 .logo img{
   margin:  0.3rem 0 -4rem  0.8rem  ;
