@@ -4,7 +4,7 @@ import link from '../img/link.svg';
 import picture from '../img/picture.svg';
 import postit from '../img/post-it.svg';
 import video from '../img/video.svg'
-const Dashboard = () => {
+const Navigation = () => {
   return (
     <div className='dashboard'>
       <Nav defaultActiveKey='/home' className='flex-xl-column'>
@@ -25,4 +25,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Navigation;
