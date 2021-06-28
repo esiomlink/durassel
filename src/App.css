@@ -4,10 +4,13 @@ color: blue;
 }
 .dashboard{
   width:5rem;
-  height: 100vh;
+  margin-top: 15vh;
+  height: 70vh;
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content:space-evenly;
+  align-items: center;
   background-color: rgb(195, 195, 150);
+  border-radius:0 100px  100px 0;
 }
+
 
