@@ -1,6 +1,9 @@
 .App {
-  text-align: center;
+
 color: blue;
+}
+.logo img{
+  margin:  0.3rem 0 -4rem  0.8rem  ;
 }
 .dashboard{
   width:5rem;
