@@ -9,7 +9,7 @@ export default function PostImg() {
   useDraggable(videoRef);
   return (
     <>
-      <Card style={{ width: "20%", height: "auto" }} ref={videoRef}>
+      <Card style={{ width: "180px", height: "auto" }} ref={videoRef}>
           <Player
             playsInline
             src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"

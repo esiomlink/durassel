@@ -8,7 +8,7 @@ export default function PostIt() {
   return (
     <>
             <Card
-              style={{ width: "20%", height: "auto" }}
+              style={{ width: "180px", height: "auto" }}
               className="bg-warning"
               ref={postRef}
             >
